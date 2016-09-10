@@ -63,6 +63,8 @@
 
 .field public static final none:I = 0x7f0c0002
 
+.field public static final notifiation_image:I = 0x7f0c0026
+
 .field public static final np_progressbar_bottom_spacer:I = 0x7f0c001c
 
 .field public static final np_progressbar_root:I = 0x7f0c0019
@@ -89,11 +91,17 @@
 
 .field public static final np_webview_root_layout:I = 0x7f0c001d
 
+.field public static final pgpStatusDetail:I = 0x7f0c0028
+
+.field public static final pgpStatusTitle:I = 0x7f0c0027
+
 .field public static final spinner:I = 0x7f0c0003
 
-.field public static final upsight_marketing_content_view_close_button:I = 0x7f0c0027
+.field public static final stopPgp:I = 0x7f0c0029
 
-.field public static final upsight_marketing_content_view_web_view:I = 0x7f0c0026
+.field public static final upsight_marketing_content_view_close_button:I = 0x7f0c002b
+
+.field public static final upsight_marketing_content_view_web_view:I = 0x7f0c002a
 
 
 # direct methods
@@ -101,7 +109,7 @@
     .locals 0
 
     .prologue
-    .line 183
+    .line 186
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

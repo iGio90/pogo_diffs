@@ -30,4 +30,20 @@
     <string name="common_google_play_services_api_unavailable_text">"%1$s nécessite un ou plusieurs services Google Play qui ne sont pas disponibles actuellement. Veuillez contacter le développeur pour obtenir de l'aide."</string>
     <string name="common_google_play_services_sign_in_failed_title">Échec de la connexion</string>
     <string name="common_google_play_services_sign_in_failed_text">Erreur lors de la connexion au compte indiqué. Veuillez en sélectionner un autre.</string>
+    <string name="Captured_Pokemon">Tu as attrapé un Pokémon !</string>
+    <string name="Connecting_GO_Plus">Connexion du Pokémon GO Plus</string>
+    <string name="Disconnecting_GO_Plus">Déconnexion du Pokémon GO Plus</string>
+    <string name="Item_Inventory_Full">Ton Sac est plein, tu n’as rien pu recevoir.</string>
+    <string name="Out_Of_Pokeballs">Tu n’as plus de Poké Balls.</string>
+    <string name="Pokemon_Escaped">Ce Pokémon s’est enfui !</string>
+    <string name="Pokemon_Go_Plus">Pokémon GO Plus</string>
+    <string name="Pokemon_Inventory_Full">Tu n’as plus de place pour des Pokémon.</string>
+    <string name="Pokestop_Cooldown">Ce PokéStop est sur le point d’être utilisable. Essaye plus tard.</string>
+    <string name="Pokestop_Out_Of_Range">Ce PokéStop est hors de portée.</string>
+    <string name="Retrieved_Items">Tu as reçu %s objets du PokéStop.</string>
+    <string name="Retrieved_an_Item">Tu as reçu un objet du PokéStop.</string>
+    <string name="Session_Ended">Ta session Pokémon GO Plus s’est terminée. Sélectionne ceci pour lancer Pokémon GO !</string>
+    <string name="Stop_button_label">Stop</string>
+    <string name="Tracked_Pokemon_Found">Tu as trouvé le Pokémon que tu recherchais.</string>
+    <string name="Tracked_Pokemon_Lost">Le Pokémon que tu recherchais a disparu.</string>
 </resources>

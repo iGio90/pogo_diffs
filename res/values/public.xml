@@ -13,21 +13,22 @@
     <public type="drawable" name="common_signin_btn_icon_light" id="0x7f02000d" />
     <public type="drawable" name="common_signin_btn_text_dark" id="0x7f020012" />
     <public type="drawable" name="common_signin_btn_text_light" id="0x7f020019" />
-    <public type="drawable" name="lunar_console_icon_button_clear" id="0x7f02001f" />
-    <public type="drawable" name="lunar_console_icon_button_clipboard" id="0x7f020020" />
-    <public type="drawable" name="lunar_console_icon_button_close" id="0x7f020021" />
-    <public type="drawable" name="lunar_console_icon_button_console" id="0x7f020022" />
-    <public type="drawable" name="lunar_console_icon_button_email" id="0x7f020023" />
-    <public type="drawable" name="lunar_console_icon_button_lock" id="0x7f020024" />
-    <public type="drawable" name="lunar_console_icon_button_unlock" id="0x7f020025" />
-    <public type="drawable" name="lunar_console_icon_log" id="0x7f020026" />
-    <public type="drawable" name="lunar_console_icon_log_error" id="0x7f020027" />
-    <public type="drawable" name="lunar_console_icon_log_warning" id="0x7f020028" />
-    <public type="drawable" name="lunar_console_shape_edit_text" id="0x7f020029" />
-    <public type="drawable" name="np_webview_back_button_normal" id="0x7f02002a" />
-    <public type="drawable" name="np_webview_close_button_normal" id="0x7f02002b" />
-    <public type="drawable" name="np_webview_forward_button_normal" id="0x7f02002c" />
-    <public type="drawable" name="np_webview_reload_button_normal" id="0x7f02002d" />
+    <public type="drawable" name="lunar_console_icon_button_clear" id="0x7f020021" />
+    <public type="drawable" name="lunar_console_icon_button_clipboard" id="0x7f020022" />
+    <public type="drawable" name="lunar_console_icon_button_close" id="0x7f020023" />
+    <public type="drawable" name="lunar_console_icon_button_console" id="0x7f020024" />
+    <public type="drawable" name="lunar_console_icon_button_email" id="0x7f020025" />
+    <public type="drawable" name="lunar_console_icon_button_lock" id="0x7f020026" />
+    <public type="drawable" name="lunar_console_icon_button_unlock" id="0x7f020027" />
+    <public type="drawable" name="lunar_console_icon_log" id="0x7f020028" />
+    <public type="drawable" name="lunar_console_icon_log_error" id="0x7f020029" />
+    <public type="drawable" name="lunar_console_icon_log_warning" id="0x7f02002a" />
+    <public type="drawable" name="lunar_console_shape_edit_text" id="0x7f02002b" />
+    <public type="drawable" name="notification_icon" id="0x7f02002c" />
+    <public type="drawable" name="np_webview_back_button_normal" id="0x7f02002d" />
+    <public type="drawable" name="np_webview_close_button_normal" id="0x7f02002e" />
+    <public type="drawable" name="np_webview_forward_button_normal" id="0x7f02002f" />
+    <public type="drawable" name="np_webview_reload_button_normal" id="0x7f020030" />
     <public type="drawable" name="common_full_open_on_phone" id="0x7f020004" />
     <public type="drawable" name="common_signin_btn_icon_disabled_dark" id="0x7f020007" />
     <public type="drawable" name="common_signin_btn_icon_disabled_focus_dark" id="0x7f020008" />
@@ -49,9 +50,11 @@
     <public type="drawable" name="common_signin_btn_text_normal_light" id="0x7f02001b" />
     <public type="drawable" name="common_signin_btn_text_pressed_dark" id="0x7f02001c" />
     <public type="drawable" name="common_signin_btn_text_pressed_light" id="0x7f02001d" />
-    <public type="drawable" name="ic_launcher" id="0x7f02001e" />
-    <public type="drawable" name="powered_by_google_dark" id="0x7f02002e" />
-    <public type="drawable" name="powered_by_google_light" id="0x7f02002f" />
+    <public type="drawable" name="ic_close_black_24dp" id="0x7f02001e" />
+    <public type="drawable" name="ic_launcher" id="0x7f02001f" />
+    <public type="drawable" name="ic_pgp_white" id="0x7f020020" />
+    <public type="drawable" name="powered_by_google_dark" id="0x7f020031" />
+    <public type="drawable" name="powered_by_google_light" id="0x7f020032" />
     <public type="drawable" name="common_ic_googleplayservices" id="0x7f020005" />
     <public type="drawable" name="app_banner" id="0x7f020000" />
     <public type="layout" name="accounts_activity" id="0x7f030000" />
@@ -61,9 +64,10 @@
     <public type="layout" name="lunar_layout_warning" id="0x7f030004" />
     <public type="layout" name="np_progressbar_layout" id="0x7f030005" />
     <public type="layout" name="np_webview_layout" id="0x7f030006" />
-    <public type="layout" name="upsight_activity_billboard_management" id="0x7f030007" />
-    <public type="layout" name="upsight_fragment_billboard" id="0x7f030008" />
-    <public type="layout" name="upsight_marketing_content_view" id="0x7f030009" />
+    <public type="layout" name="pgp_status_notif" id="0x7f030007" />
+    <public type="layout" name="upsight_activity_billboard_management" id="0x7f030008" />
+    <public type="layout" name="upsight_fragment_billboard" id="0x7f030009" />
+    <public type="layout" name="upsight_marketing_content_view" id="0x7f03000a" />
     <public type="anim" name="lunar_console_slide_in_top" id="0x7f040000" />
     <public type="anim" name="lunar_console_slide_out_top" id="0x7f040001" />
     <public type="xml" name="nativeplugins_file_paths" id="0x7f050000" />
@@ -111,23 +115,39 @@
     <public type="string" name="decline" id="0x7f070025" />
     <public type="string" name="create_calendar_title" id="0x7f070026" />
     <public type="string" name="create_calendar_message" id="0x7f070027" />
-    <public type="string" name="app_name" id="0x7f070028" />
-    <public type="string" name="com.crashlytics.android.build_id" id="0x7f070029" />
-    <public type="string" name="Loading" id="0x7f07002a" />
-    <public type="string" name="np_toolbar_back" id="0x7f07002b" />
-    <public type="string" name="np_toolbar_forward" id="0x7f07002c" />
-    <public type="string" name="np_toolbar_reload" id="0x7f07002d" />
-    <public type="string" name="np_toolbar_done" id="0x7f07002e" />
-    <public type="string" name="gameservices_sign_in_failed" id="0x7f07002f" />
-    <public type="string" name="gameservices_app_misconfigured" id="0x7f070030" />
-    <public type="string" name="gameservices_license_failed" id="0x7f070031" />
-    <public type="string" name="upsight_sdk_build" id="0x7f070032" />
-    <public type="string" name="upsight_sdk_version" id="0x7f070033" />
-    <public type="string" name="action_settings" id="0x7f070034" />
-    <public type="string" name="lunar_console_log_details_dialog_button_copy_to_clipboard" id="0x7f070035" />
-    <public type="string" name="lunar_console_log_details_dialog_no_stacktrace_warning" id="0x7f070036" />
-    <public type="string" name="lunar_console_overflow_warning_text" id="0x7f070037" />
-    <public type="string" name="lunar_console_title_fake_status_bar" id="0x7f070038" />
+    <public type="string" name="Captured_Pokemon" id="0x7f070028" />
+    <public type="string" name="Connecting_GO_Plus" id="0x7f070029" />
+    <public type="string" name="Disconnecting_GO_Plus" id="0x7f07002a" />
+    <public type="string" name="Item_Inventory_Full" id="0x7f07002b" />
+    <public type="string" name="Out_Of_Pokeballs" id="0x7f07002c" />
+    <public type="string" name="Pokemon_Escaped" id="0x7f07002d" />
+    <public type="string" name="Pokemon_Go_Plus" id="0x7f07002e" />
+    <public type="string" name="Pokemon_Inventory_Full" id="0x7f07002f" />
+    <public type="string" name="Pokestop_Cooldown" id="0x7f070030" />
+    <public type="string" name="Pokestop_Out_Of_Range" id="0x7f070031" />
+    <public type="string" name="Retrieved_Items" id="0x7f070032" />
+    <public type="string" name="Retrieved_an_Item" id="0x7f070033" />
+    <public type="string" name="Session_Ended" id="0x7f070034" />
+    <public type="string" name="Stop_button_label" id="0x7f070035" />
+    <public type="string" name="Tracked_Pokemon_Found" id="0x7f070036" />
+    <public type="string" name="Tracked_Pokemon_Lost" id="0x7f070037" />
+    <public type="string" name="app_name" id="0x7f070038" />
+    <public type="string" name="com.crashlytics.android.build_id" id="0x7f070039" />
+    <public type="string" name="Loading" id="0x7f07003a" />
+    <public type="string" name="np_toolbar_back" id="0x7f07003b" />
+    <public type="string" name="np_toolbar_forward" id="0x7f07003c" />
+    <public type="string" name="np_toolbar_reload" id="0x7f07003d" />
+    <public type="string" name="np_toolbar_done" id="0x7f07003e" />
+    <public type="string" name="gameservices_sign_in_failed" id="0x7f07003f" />
+    <public type="string" name="gameservices_app_misconfigured" id="0x7f070040" />
+    <public type="string" name="gameservices_license_failed" id="0x7f070041" />
+    <public type="string" name="upsight_sdk_build" id="0x7f070042" />
+    <public type="string" name="upsight_sdk_version" id="0x7f070043" />
+    <public type="string" name="action_settings" id="0x7f070044" />
+    <public type="string" name="lunar_console_log_details_dialog_button_copy_to_clipboard" id="0x7f070045" />
+    <public type="string" name="lunar_console_log_details_dialog_no_stacktrace_warning" id="0x7f070046" />
+    <public type="string" name="lunar_console_overflow_warning_text" id="0x7f070047" />
+    <public type="string" name="lunar_console_title_fake_status_bar" id="0x7f070048" />
     <public type="color" name="common_signin_btn_dark_text_default" id="0x7f080000" />
     <public type="color" name="common_signin_btn_dark_text_pressed" id="0x7f080001" />
     <public type="color" name="common_signin_btn_dark_text_disabled" id="0x7f080002" />
@@ -214,6 +234,10 @@
     <public type="id" name="np_webview_frameLayout" id="0x7f0c0023" />
     <public type="id" name="np_webview" id="0x7f0c0024" />
     <public type="id" name="np_webview_closebutton" id="0x7f0c0025" />
-    <public type="id" name="upsight_marketing_content_view_web_view" id="0x7f0c0026" />
-    <public type="id" name="upsight_marketing_content_view_close_button" id="0x7f0c0027" />
+    <public type="id" name="notifiation_image" id="0x7f0c0026" />
+    <public type="id" name="pgpStatusTitle" id="0x7f0c0027" />
+    <public type="id" name="pgpStatusDetail" id="0x7f0c0028" />
+    <public type="id" name="stopPgp" id="0x7f0c0029" />
+    <public type="id" name="upsight_marketing_content_view_web_view" id="0x7f0c002a" />
+    <public type="id" name="upsight_marketing_content_view_close_button" id="0x7f0c002b" />
 </resources>

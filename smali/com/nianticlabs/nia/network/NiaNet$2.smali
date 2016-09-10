@@ -28,7 +28,7 @@
     .locals 0
 
     .prologue
-    .line 63
+    .line 25
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -40,7 +40,7 @@
     .locals 1
 
     .prologue
-    .line 63
+    .line 25
     invoke-virtual {p0}, Lcom/nianticlabs/nia/network/NiaNet$2;->initialValue()Ljava/nio/ByteBuffer;
 
     move-result-object v0
@@ -52,7 +52,7 @@
     .locals 1
 
     .prologue
-    .line 66
+    .line 28
     const v0, 0x8000
 
     invoke-static {v0}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;

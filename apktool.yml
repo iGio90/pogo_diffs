@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: 035.apk
+apkFileName: 037.apk
 compressionType: false
 doNotCompress:
 - arsc
@@ -36,5 +36,5 @@ usesFramework:
   tag: null
 version: 2.1.1
 versionInfo:
-  versionCode: '2016082200'
-  versionName: 0.35.0
+  versionCode: '2016090901'
+  versionName: 0.37.0

@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 52
+    .line 14
     invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     return-void
@@ -38,7 +38,7 @@
     .locals 1
 
     .prologue
-    .line 52
+    .line 14
     invoke-virtual {p0}, Lcom/nianticlabs/nia/network/NiaNet$1;->initialValue()[B
 
     move-result-object v0
@@ -50,7 +50,7 @@
     .locals 1
 
     .prologue
-    .line 55
+    .line 17
     const v0, 0x8000
 
     new-array v0, v0, [B

@@ -35,6 +35,10 @@
     <item type="id" name="np_webview_frameLayout">false</item>
     <item type="id" name="np_webview">false</item>
     <item type="id" name="np_webview_closebutton">false</item>
+    <item type="id" name="notifiation_image">false</item>
+    <item type="id" name="pgpStatusTitle">false</item>
+    <item type="id" name="pgpStatusDetail">false</item>
+    <item type="id" name="stopPgp">false</item>
     <item type="id" name="upsight_marketing_content_view_web_view">false</item>
     <item type="id" name="upsight_marketing_content_view_close_button">false</item>
 </resources>

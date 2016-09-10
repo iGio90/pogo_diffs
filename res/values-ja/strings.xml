@@ -30,4 +30,20 @@
     <string name="common_google_play_services_api_unavailable_text">%1$sには現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。</string>
     <string name="common_google_play_services_sign_in_failed_title">ログインできませんでした</string>
     <string name="common_google_play_services_sign_in_failed_text">指定されたアカウントへのログイン中にエラーが発生しました。別のアカウントを選択してください。</string>
+    <string name="Captured_Pokemon">ポケモンを捕まえました！</string>
+    <string name="Connecting_GO_Plus">Pokémon GO Plus に接続しています</string>
+    <string name="Disconnecting_GO_Plus">Pokémon GO Plus を切断しています</string>
+    <string name="Item_Inventory_Full">バッグがいっぱいで道具を手に入れることができませんでした</string>
+    <string name="Out_Of_Pokeballs">モンスターボールがありません</string>
+    <string name="Pokemon_Escaped">ポケモンが逃げました！</string>
+    <string name="Pokemon_Go_Plus">Pokémon GO Plus</string>
+    <string name="Pokemon_Inventory_Full">ポケモンボックスがいっぱいです</string>
+    <string name="Pokestop_Cooldown">ポケストップがスピンできるまでもう少しお待ちください</string>
+    <string name="Pokestop_Out_Of_Range">ポケストップが遠すぎます</string>
+    <string name="Retrieved_Items">ポケストップで道具を %s 個手に入れました</string>
+    <string name="Retrieved_an_Item">ポケストップで道具を手に入れました</string>
+    <string name="Session_Ended">Pokémon GO Plus との接続が切れました。アプリを開いて再接続の操作をしてください</string>
+    <string name="Stop_button_label">停止</string>
+    <string name="Tracked_Pokemon_Found">捜索中のポケモンが見つかりました</string>
+    <string name="Tracked_Pokemon_Lost">捜索中のポケモンが見つかりませんでした</string>
 </resources>

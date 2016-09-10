@@ -41,8 +41,8 @@
 
 
 # virtual methods
-.method public getId(Ljava/lang/Object;)Ljava/lang/String;
-    .locals 6
+.method public declared-synchronized getId(Ljava/lang/Object;)Ljava/lang/String;
+    .locals 5
     .param p1, "target"    # Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -51,9 +51,9 @@
     .end annotation
 
     .prologue
-    const/4 v5, 0x0
-
     .line 37
+    monitor-enter p0
+
     :try_start_0
     iget-object v1, p0, Lcom/upsight/android/internal/persistence/storable/StorableFieldIdentifierAccessor;->mField:Ljava/lang/reflect/Field;
 
@@ -74,9 +74,16 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 42
+    :try_start_1
     iget-object v2, p0, Lcom/upsight/android/internal/persistence/storable/StorableFieldIdentifierAccessor;->mField:Ljava/lang/reflect/Field;
 
-    invoke-virtual {v2, v5}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    const/4 v3, 0x0
+
+    invoke-virtual {v2, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    monitor-exit p0
 
     return-object v1
 
@@ -86,7 +93,7 @@
 
     .line 40
     .local v0, "e":Ljava/lang/Exception;
-    :try_start_1
+    :try_start_2
     new-instance v1, Lcom/upsight/android/UpsightException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -120,23 +127,36 @@
     invoke-direct {v1, v2, v3}, Lcom/upsight/android/UpsightException;-><init>(Ljava/lang/String;[Ljava/lang/Object;)V
 
     throw v1
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 42
     .end local v0    # "e":Ljava/lang/Exception;
     :catchall_0
     move-exception v1
 
+    :try_start_3
     iget-object v2, p0, Lcom/upsight/android/internal/persistence/storable/StorableFieldIdentifierAccessor;->mField:Ljava/lang/reflect/Field;
 
-    invoke-virtual {v2, v5}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    const/4 v3, 0x0
+
+    invoke-virtual {v2, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+
+    throw v1
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    .line 37
+    :catchall_1
+    move-exception v1
+
+    monitor-exit p0
 
     throw v1
 .end method
 
-.method public setId(Ljava/lang/Object;Ljava/lang/String;)V
-    .locals 6
+.method public declared-synchronized setId(Ljava/lang/Object;Ljava/lang/String;)V
+    .locals 5
     .param p1, "target"    # Ljava/lang/Object;
     .param p2, "id"    # Ljava/lang/String;
     .annotation system Ldalvik/annotation/Throws;
@@ -146,9 +166,9 @@
     .end annotation
 
     .prologue
-    const/4 v5, 0x0
-
     .line 25
+    monitor-enter p0
+
     :try_start_0
     iget-object v1, p0, Lcom/upsight/android/internal/persistence/storable/StorableFieldIdentifierAccessor;->mField:Ljava/lang/reflect/Field;
 
@@ -165,11 +185,18 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 30
+    :try_start_1
     iget-object v1, p0, Lcom/upsight/android/internal/persistence/storable/StorableFieldIdentifierAccessor;->mField:Ljava/lang/reflect/Field;
 
-    invoke-virtual {v1, v5}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
     .line 32
+    monitor-exit p0
+
     return-void
 
     .line 27
@@ -178,7 +205,7 @@
 
     .line 28
     .local v0, "e":Ljava/lang/Exception;
-    :try_start_1
+    :try_start_2
     new-instance v1, Lcom/upsight/android/UpsightException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -212,17 +239,30 @@
     invoke-direct {v1, v2, v3}, Lcom/upsight/android/UpsightException;-><init>(Ljava/lang/String;[Ljava/lang/Object;)V
 
     throw v1
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 30
     .end local v0    # "e":Ljava/lang/Exception;
     :catchall_0
     move-exception v1
 
+    :try_start_3
     iget-object v2, p0, Lcom/upsight/android/internal/persistence/storable/StorableFieldIdentifierAccessor;->mField:Ljava/lang/reflect/Field;
 
-    invoke-virtual {v2, v5}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    const/4 v3, 0x0
+
+    invoke-virtual {v2, v3}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+
+    throw v1
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    .line 25
+    :catchall_1
+    move-exception v1
+
+    monitor-exit p0
 
     throw v1
 .end method

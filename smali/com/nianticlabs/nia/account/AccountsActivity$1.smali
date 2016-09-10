@@ -37,7 +37,7 @@
     .param p1, "this$0"    # Lcom/nianticlabs/nia/account/AccountsActivity;
 
     .prologue
-    .line 134
+    .line 144
     iput-object p1, p0, Lcom/nianticlabs/nia/account/AccountsActivity$1;->this$0:Lcom/nianticlabs/nia/account/AccountsActivity;
 
     iput-object p2, p0, Lcom/nianticlabs/nia/account/AccountsActivity$1;->val$accountName:Ljava/lang/String;
@@ -53,7 +53,7 @@
     .locals 1
 
     .prologue
-    .line 134
+    .line 144
     check-cast p1, [Ljava/lang/Void;
 
     invoke-virtual {p0, p1}, Lcom/nianticlabs/nia/account/AccountsActivity$1;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void;
@@ -68,7 +68,7 @@
     .param p1, "params"    # [Ljava/lang/Void;
 
     .prologue
-    .line 136
+    .line 146
     iget-object v0, p0, Lcom/nianticlabs/nia/account/AccountsActivity$1;->this$0:Lcom/nianticlabs/nia/account/AccountsActivity;
 
     iget-object v1, p0, Lcom/nianticlabs/nia/account/AccountsActivity$1;->val$accountName:Ljava/lang/String;
@@ -76,7 +76,7 @@
     # invokes: Lcom/nianticlabs/nia/account/AccountsActivity;->getAuthTokenBlocking(Lcom/nianticlabs/nia/account/AccountsActivity;Ljava/lang/String;)V
     invoke-static {v0, v1}, Lcom/nianticlabs/nia/account/AccountsActivity;->access$000(Lcom/nianticlabs/nia/account/AccountsActivity;Ljava/lang/String;)V
 
-    .line 137
+    .line 147
     const/4 v0, 0x0
 
     return-object v0

@@ -56,7 +56,7 @@
 
     const/4 v2, 0x0
 
-    .line 29
+    .line 28
     new-instance v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
     const-string v1, "UNDEFINED"
@@ -65,7 +65,7 @@
 
     sput-object v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;->UNDEFINED:Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
-    .line 30
+    .line 29
     new-instance v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
     const-string v1, "OK"
@@ -74,7 +74,7 @@
 
     sput-object v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;->OK:Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
-    .line 31
+    .line 30
     new-instance v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
     const-string v1, "NON_RECOVERABLE_ERROR"
@@ -83,7 +83,7 @@
 
     sput-object v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;->NON_RECOVERABLE_ERROR:Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
-    .line 32
+    .line 31
     new-instance v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
     const-string v1, "SIGNING_OUT"
@@ -92,7 +92,7 @@
 
     sput-object v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;->SIGNING_OUT:Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
-    .line 33
+    .line 32
     new-instance v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
     const-string v1, "USER_CANCELED_LOGIN"
@@ -101,7 +101,7 @@
 
     sput-object v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;->USER_CANCELED_LOGIN:Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
-    .line 28
+    .line 27
     const/4 v0, 0x5
 
     new-array v0, v0, [Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
@@ -141,13 +141,13 @@
     .end annotation
 
     .prologue
-    .line 35
+    .line 34
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 36
+    .line 35
     iput p3, p0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;->id:I
 
-    .line 37
+    .line 36
     return-void
 .end method
 
@@ -156,7 +156,7 @@
     .param p0, "name"    # Ljava/lang/String;
 
     .prologue
-    .line 28
+    .line 27
     const-class v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -172,7 +172,7 @@
     .locals 1
 
     .prologue
-    .line 28
+    .line 27
     sget-object v0, Lcom/nianticlabs/nia/account/NianticAccountManager$Status;->$VALUES:[Lcom/nianticlabs/nia/account/NianticAccountManager$Status;
 
     invoke-virtual {v0}, [Lcom/nianticlabs/nia/account/NianticAccountManager$Status;->clone()Ljava/lang/Object;

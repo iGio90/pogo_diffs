@@ -29,7 +29,7 @@
     .param p1, "this$0"    # Lcom/nianticlabs/nia/account/NianticAccountManager;
 
     .prologue
-    .line 96
+    .line 95
     iput-object p1, p0, Lcom/nianticlabs/nia/account/NianticAccountManager$1;->this$0:Lcom/nianticlabs/nia/account/NianticAccountManager;
 
     iput-object p2, p0, Lcom/nianticlabs/nia/account/NianticAccountManager$1;->val$clientId:Ljava/lang/String;
@@ -45,7 +45,7 @@
     .locals 3
 
     .prologue
-    .line 98
+    .line 97
     new-instance v0, Landroid/content/Intent;
 
     iget-object v1, p0, Lcom/nianticlabs/nia/account/NianticAccountManager$1;->this$0:Lcom/nianticlabs/nia/account/NianticAccountManager;
@@ -59,7 +59,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 99
+    .line 98
     .local v0, "intent":Landroid/content/Intent;
     sget-object v1, Lcom/nianticlabs/nia/account/AccountsActivity;->EXTRA_OAUTH_CLIENT_ID:Ljava/lang/String;
 
@@ -67,7 +67,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 101
+    .line 100
     iget-object v1, p0, Lcom/nianticlabs/nia/account/NianticAccountManager$1;->this$0:Lcom/nianticlabs/nia/account/NianticAccountManager;
 
     # getter for: Lcom/nianticlabs/nia/account/NianticAccountManager;->context:Landroid/content/Context;
@@ -77,6 +77,6 @@
 
     invoke-virtual {v1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 102
+    .line 101
     return-void
 .end method

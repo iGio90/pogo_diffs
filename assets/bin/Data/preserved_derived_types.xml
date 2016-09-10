@@ -76,6 +76,7 @@
 <type fullname="Niantic.Holoholo.GameState" preserve="all"/>
 <type fullname="Niantic.Holoholo.GameInput.InputEventService" preserve="all"/>
 <type fullname="Niantic.Holoholo.Internationalization.I18nText" preserve="all"/>
+<type fullname="Niantic.Holoholo.Player.UI.BannedPlayerLockoutGuiController" preserve="all"/>
 <type fullname="Niantic.Holoholo.Login.LoginAgeGateGuiController" preserve="all"/>
 <type fullname="Niantic.Holoholo.Login.LoginAgeGateState" preserve="all"/>
 <type fullname="LoginBackgroundGuiController" preserve="all"/>
@@ -120,6 +121,7 @@
 <type fullname="Niantic.Holoholo.Encounter.EncounterInteractionState" preserve="all"/>
 <type fullname="Niantic.Holoholo.Encounter.EncounterIntroState" preserve="all"/>
 <type fullname="Niantic.Holoholo.Encounter.EncounterPokemon" preserve="all"/>
+<type fullname="Niantic.Holoholo.Encounter.EncounterSnapshotGuiController" preserve="all"/>
 <type fullname="Niantic.Holoholo.Encounter.EncounterSnapshotState" preserve="all"/>
 <type fullname="ScreenShotHUD" preserve="all"/>
 <type fullname="Niantic.Holoholo.Encounter.EncounterSummaryState" preserve="all"/>
@@ -143,6 +145,7 @@
 <type fullname="Niantic.Holoholo.Map.UI.MainMenuGuiController" preserve="all"/>
 <type fullname="MapMenuDrag" preserve="all"/>
 <type fullname="MapMenuDrop" preserve="all"/>
+<type fullname="Niantic.Holoholo.Map.UI.MapAttributionLabel" preserve="all"/>
 <type fullname="Niantic.Holoholo.Map.UI.PlayerHudGuiController" preserve="all"/>
 <type fullname="Niantic.Holoholo.UI.GlobalGuiInstaller" preserve="all"/>
 <type fullname="Niantic.Holoholo.AR.ArService" preserve="all"/>
@@ -316,7 +319,6 @@
 <type fullname="Niantic.Holoholo.UI.TestScenes.UserPromptsInstaller" preserve="all"/>
 <type fullname="Niantic.Holoholo.Encounter.FullscreenQuad" preserve="all"/>
 <type fullname="Niantic.Holoholo.Encounter.GyroTracker" preserve="all"/>
-<type fullname="Niantic.Holoholo.Encounter.TakeScreenShot" preserve="all"/>
 <type fullname="Niantic.Holoholo.Android.AndroidContext" preserve="all"/>
 <type fullname="AnimEventUtils" preserve="all"/>
 <type fullname="AnimTileUV" preserve="all"/>
@@ -328,6 +330,10 @@
 <type fullname="ReApplyShaders" preserve="all"/>
 <type fullname="ScaleParticles" preserve="all"/>
 <type fullname="Niantic.Holoholo.Audio.PlaySFX" preserve="all"/>
+<type fullname="Niantic.Holoholo.Buddy.BuddyPokemonDetailGuiController" preserve="all"/>
+<type fullname="Niantic.Holoholo.Buddy.BuddyPokemonDetailModelTouch" preserve="all"/>
+<type fullname="Niantic.Holoholo.Buddy.BuddyPokemonPortrait" preserve="all"/>
+<type fullname="Niantic.Holoholo.Buddy.BuddyPokemonService" preserve="all"/>
 <type fullname="Niantic.Holoholo.CameraRig.CameraBillboard" preserve="all"/>
 <type fullname="CameraShake" preserve="all"/>
 <type fullname="Niantic.Holoholo.CameraRig.SplineCameraController" preserve="all"/>
@@ -461,7 +467,6 @@
 <type fullname="Niantic.Holoholo.Pgp.PgpGuiController" preserve="all"/>
 <type fullname="Niantic.Holoholo.Pgp.PgpGuiService" preserve="all"/>
 <type fullname="Niantic.Holoholo.Pgp.PgpSettingsGuiController" preserve="all"/>
-<type fullname="Niantic.Holoholo.Pgp.PgpDeviceScanner" preserve="all"/>
 <type fullname="Niantic.Holoholo.Pgp.PgpMapObjectMarker" preserve="all"/>
 <type fullname="Niantic.Holoholo.Pgp.PgpNotificationCenter" preserve="all"/>
 <type fullname="Niantic.Holoholo.Pgp.PgpService" preserve="all"/>
@@ -546,6 +551,8 @@
 <type fullname="Niantic.Holoholo.ResetCodename.ResetCodenameSettingsButton" preserve="all"/>
 <type fullname="Niantic.Holoholo.UI.BadgeDetailGuiController" preserve="all"/>
 <type fullname="Niantic.Holoholo.Player.BadgeListItemView" preserve="all"/>
+<type fullname="Niantic.Holoholo.Buddy.BuddyCameraAnimator" preserve="all"/>
+<type fullname="Niantic.Holoholo.Buddy.BuddyPokemonPositioner" preserve="all"/>
 <type fullname="Niantic.Holoholo.Avatar.PlayerAvatarPortrait" preserve="all"/>
 <type fullname="Niantic.Holoholo.Avatar.PlayerAvatarStage" preserve="all"/>
 <type fullname="Niantic.Holoholo.Player.PlayerBadgeListAdapter" preserve="all"/>
